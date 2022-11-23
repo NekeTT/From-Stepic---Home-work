@@ -1,0 +1,112 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: rgb(10, 10, 10);
+}
+
+h1, h2, h3 {
+    margin: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 196, 81);
+}
+
+caption {
+    margin: 15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 196, 81);
+}
+
+p, figcaption {
+    color: rgb(170, 170, 170);
+    font-size: large;
+    margin: 15px 0px;
+}
+
+ul, li {
+    color: rgb(170, 170, 170);
+    font-size: large;
+}
+
+h1, h2 {
+    margin-top: 1.5em;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+/*caption {
+    color: rgb(190, 190, 190);
+}*/
+
+th, td, caption, figcaption {
+    font-style: italic;
+}
+
+figure {
+    margin: 0px;
+}
+  
+div.img-box {
+    float: right;
+    clear: right;
+    margin: 0px 5px 10px 20px;
+    border-radius: 5px;
+    padding: 0.2em;
+  }
+  
+div.img-box img {
+    border-radius: 5px;
+  }
+
+div.img-box figcaption {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+    border-color:rgb(61, 61, 61);
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  td {
+    color: rgb(170, 170, 170);
+}
+
+  .table-box th,
+  .table-box td {
+    padding: 3.5px;
+  }
+  
+  .table-box th {
+    background-color: rgb(19, 6, 6);
+    color: rgb(245, 126, 87);
+  }
+  
+  div.table-box {
+    width: 90%;
+    margin: 0px auto 30px auto;
+    padding: 0px 10px 15px 10px;
+    border-radius: 5px;
+  }
+
+ul, li {
+    padding-left: 32px;
+  }
